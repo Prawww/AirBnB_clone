@@ -10,7 +10,7 @@ env.hosts = ['35.231.33.237', '34.74.155.163']
 env.user = "ubuntu"
 
 
-def do_deploy(archive_path):
+def do_pack(archive_path):
     """ Deploys """
     if not os.path.exists(archive_path):
         return False
